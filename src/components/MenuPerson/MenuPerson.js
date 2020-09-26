@@ -18,11 +18,13 @@ const MenuPerson = () => {
         <div className="menu-person">
             <div className="header">
                 <img className="img-profile" src="https://adelstiti.github.io/images/adel1.jpg" alt="Profile"/>
-                <p>Adel Stiti</p>
-                <span>Web Developer</span>
+                <div className="content-person">
+                <p className="name-person">Adel Stiti</p>
+                <span  className="job-person" >Web Developer</span>
+                </div>
             </div>
             <hr/>
-            <ul>
+            <ul className="my-menu">
                 <li  onMouseEnter={() => setNb(1)}  style={nb  === 1 ?ui : {}}>         
                     <span>Profile and Visibility</span>
                     <Visibility style={{float:'left',marginRight : '3%'}} htmlColor="#2C3E50"/>

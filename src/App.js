@@ -1,12 +1,12 @@
-import React from 'react';
-import MenuPerson from './components/MenuPerson/MenuPerson.js';
+import Home from './Home/Home'
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <MenuPerson />
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <Home />
+        </div>
+    )
 }
 
-export default App;
+export default App

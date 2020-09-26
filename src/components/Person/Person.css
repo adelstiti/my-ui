@@ -23,7 +23,7 @@
 }
 
 
-p{
+.card-person p{
     font-family: Mulish;
     font-style: normal;
     font-weight: 900;
@@ -34,7 +34,7 @@ p{
     margin-bottom: 1%;
 }
 
-span{
+.card-person span{
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -47,7 +47,7 @@ span{
     text-align: center;
 }
 
-button{
+.card-person button{
     background: #3863FC;
     border-radius: 50px;
     padding: 13px 26px 13px 26px;
@@ -63,7 +63,7 @@ button{
 }
 
 
-textarea{
+.card-person textarea{
     display: block;
     margin: auto;
     margin-top: 10%;
@@ -73,6 +73,6 @@ textarea{
     padding: 10px;
 }
 
-textarea:focus{
+.card-person textarea:focus{
     outline-color: #8fa2e6;
 }

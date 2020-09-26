@@ -1,0 +1,54 @@
+.title-ui{
+    margin-left:  50px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 41px;
+    color: #5a7ea9;
+    margin-bottom: 5px;
+}
+
+
+.App ul{
+
+    background: #FFFFFF;
+    box-shadow: 0px 27px 78px -48px #709EFD;
+    border-radius: 15px;
+    width: 190px;
+    margin-left: 20px; 
+    padding: 20px;
+    margin-right: 400px;
+    list-style: none;
+    font-family: Mulish;
+}
+
+.App li{
+    border-radius: 28.5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hover-menu{
+    background: #e8eef5;
+}
+
+
+
+.App li span{
+    display: inline;
+}
+
+
+.App {
+    float: left;
+    /* display: flex;
+    align-items: stretch; */
+  }
+  
+
+  .my-ui{
+      float: left;
+  }
