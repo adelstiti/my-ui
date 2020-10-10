@@ -1,10 +1,10 @@
-import Home from './Home/Home'
 import React from 'react'
+import './test.css'
 
 const App = () => {
     return (
-        <div>
-            <Home />
+        <div className="">
+
         </div>
     )
 }
