@@ -5,13 +5,13 @@ const PinMenu = () => {
   'https://production.haystack-assets.com/assets/avatars/defaults/hey-84b6169bf4060a76a94a072fe96b5fef7970b02d19507e2ab3952c042c21b154.svg';
   const [clicked, setClicked] = useState(false)
     const listOfItems = [
-        'semicolon.academy',
-        'twitter@SemicolonA',
-        'FB.com/semicolonAcademy',
-        'YT.com/SemicolonAcademy',
-        'twitter@med7atdawoud',
-        'IG/medhatdawoud',
-        'medhatdawoud.net',
+        'adelstiti.github.io',
+        'twitter@stitiadel',
+        'Design RaneP_App',
+        'Add web routes',
+        'Fix bug #541',
+        'Deploy TendyApp',
+        'adelstiti@gmail.com',
         ];
     
 
